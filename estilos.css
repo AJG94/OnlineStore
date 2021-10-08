@@ -1,0 +1,186 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+    background-color: transparent;
+    
+    
+}
+
+.cabecera{
+    text-align: center;
+    align-content: center;
+    padding-top: 10px;
+    background-color:rgba(0, 0, 0);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top:solid 5px;
+    border-color: lightpink;
+    
+}
+
+h1{
+    font-size: 30px;
+    padding-bottom: 10px;
+    margin: auto;
+    color: #eee;
+}
+
+body{
+    background-size: 100%;
+    background-image: url("portrait-of-young-beautiful-fashionable-model-wearing-leather-baker-and-baseball-cap-holding-smart-phone-in-hands.jpg");
+    padding-bottom: 1cm;
+    
+}
+/*
+.navigation{
+    font-size: 30px;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(0, 0, 0, 0.70);
+    border-top:solid 5px;
+    border-bottom:solid 5px;
+    border-color: lightpink;
+}
+
+.nav-link{
+    color:rgb(29, 123, 185);
+    border-right:solid rgba(202, 188, 188, 0.5) 0.5px ;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top:7px ;
+    margin-bottom:7px ;
+}
+*/
+
+#vertical_navbar {
+
+    margin: 0;
+    padding: 0;
+}
+
+#vertical_navbar {
+
+    display:block;
+    float:right;
+    padding:5px;
+    background-color:rgba(0, 0, 0, 0.3) ;
+    padding-bottom: 280px;
+    margin: 20px;
+    border-right: solid 2px;
+    border-bottom: solid 2px;
+    border-color: lightpink;
+    border-radius: 10px;
+    max-width: 180px;
+    text-align: center;
+}
+
+li {
+    
+    margin-top: 40px;
+    margin-right: 10px;
+    
+
+}
+
+a{
+
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color:black;
+    font-stretch: wider ;
+}
+
+.container{
+    margin-top: 7cm;
+    text-align: center;
+        
+}
+
+.col-4{
+    background-color: rgba(0, 0, 0, 0.80);
+    padding-bottom: 3cm;
+    border-right: solid 2px;
+    border-bottom: solid 2px;
+    border-color: lightpink;
+    border-radius: 10px;
+}
+
+.h2-content{
+    color: rgb(163, 163, 163);
+    font-size: 25px;
+}
+
+.h2-menu{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: left;
+    padding: 5px;
+
+}
+
+img{
+
+    height: 200px;
+}
+
+p{
+    font-size: 15x;
+    color: lightpink;
+}
+
+#logo_navbar{
+    margin-top: 50px;
+    zoom: 40%;
+
+}
+
+.h2-menu:hover{
+color: rgb(226, 50, 97);
+
+}
+
+#contenedor-registro {
+
+    size: 90%;
+
+}
+
+#form_registrarse{
+    background-color: rgba(102, 91, 91, 0.445);
+    border-radius: 10px;
+    
+}
+
+.h2-registro{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    
+}
+
+input {
+background-color: rgba(155, 152, 152, 0.363);
+margin: 10px;
+padding: 5px;
+color:rgba(222, 218, 226, 0.945);
+}
+
+#btn_registrar_usuario {
+    width: 200px;
+    border-radius: 10px;
+    background-color: grey;
+    margin: 15px;
+    padding: 7px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-registro{
+    margin-top: 4cm;
+    text-align: center;
+        
+}

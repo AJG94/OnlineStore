@@ -9,6 +9,16 @@
     
     
 }
+#btn_Registro{
+    margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+    background-color: transparent;
+    
+}
 
 .cabecera{
     text-align: center;
@@ -16,9 +26,13 @@
     padding-top: 10px;
     background-color:rgba(0, 0, 0);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-top:solid 5px;
-    border-color: lightpink;
-    
+    border-top:solid 3px;
+    border-bottom:solid 3px;
+    border-color: rgb(226, 50, 97);
+    width: 100%; 
+	left: 0;
+	top: 0;
+    position: fixed;
 }
 
 h1{
@@ -29,31 +43,11 @@ h1{
 }
 
 body{
-    background-size: 100%;
-    background-image: url("portrait-of-young-beautiful-fashionable-model-wearing-leather-baker-and-baseball-cap-holding-smart-phone-in-hands.jpg");
-    padding-bottom: 1cm;
     
-}
-/*
-.navigation{
-    font-size: 30px;
-    color: whitesmoke;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgba(0, 0, 0, 0.70);
-    border-top:solid 5px;
-    border-bottom:solid 5px;
-    border-color: lightpink;
+    background-size: 100%;
+    background: linear-gradient(to right,rgba(225,49,160,255),rgba(190,106,223,255));
 }
 
-.nav-link{
-    color:rgb(29, 123, 185);
-    border-right:solid rgba(202, 188, 188, 0.5) 0.5px ;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    margin-top:7px ;
-    margin-bottom:7px ;
-}
-*/
 
 #vertical_navbar {
 
@@ -62,33 +56,37 @@ body{
 }
 
 #vertical_navbar {
-
+    
     display:block;
     float:right;
     padding:5px;
     background-color:rgba(0, 0, 0, 0.3) ;
-    padding-bottom: 280px;
+    padding-bottom: 202px;
     margin: 20px;
     border-right: solid 2px;
     border-bottom: solid 2px;
-    border-color: lightpink;
+    border-color: rgb(226, 50, 97);
     border-radius: 10px;
     max-width: 180px;
+    
+    position: fixed;
+    width: 100%; 
+	right: 0;
+	top: 50px;
     text-align: center;
 }
 
 li {
     
     margin-top: 40px;
-    margin-right: 10px;
-    
+    text-align: left;
 
 }
 
 a{
-
+    margin: 0;
+    padding: 0;
     text-decoration: none;
-    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
     color:black;
@@ -96,7 +94,6 @@ a{
 }
 
 .container{
-    margin-top: 7cm;
     text-align: center;
         
 }
@@ -106,7 +103,7 @@ a{
     padding-bottom: 3cm;
     border-right: solid 2px;
     border-bottom: solid 2px;
-    border-color: lightpink;
+    border-color: rgb(226, 50, 97);
     border-radius: 10px;
 }
 
@@ -118,8 +115,8 @@ a{
 .h2-menu{
     color: rgb(255, 255, 255);
     font-size: 25px;
-    text-align: left;
     padding: 5px;
+    
 
 }
 
@@ -130,7 +127,7 @@ img{
 
 p{
     font-size: 15x;
-    color: lightpink;
+    color: rgb(243, 93, 133);
 }
 
 #logo_navbar{
@@ -144,15 +141,12 @@ color: rgb(226, 50, 97);
 
 }
 
-#contenedor-registro {
 
-    size: 90%;
-
-}
 
 #form_registrarse{
     background-color: rgba(102, 91, 91, 0.445);
     border-radius: 10px;
+
     
 }
 
@@ -167,6 +161,7 @@ background-color: rgba(155, 152, 152, 0.363);
 margin: 10px;
 padding: 5px;
 color:rgba(222, 218, 226, 0.945);
+border-radius: 5px;
 }
 
 #btn_registrar_usuario {
@@ -180,7 +175,57 @@ color:rgba(222, 218, 226, 0.945);
 }
 
 .container-registro{
-    margin-top: 4cm;
+    margin-top: 80px;
     text-align: center;
-        
+    padding-bottom: 16px;
 }
+
+#btn_registrar_usuario:hover {
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(121, 119, 119);
+    margin: 15px;
+    padding: 7px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#btn_registrar_usuario:active {
+    width: 200px;
+    border-radius: 10px;
+    border: solid;
+    border-color: rgb(226, 50, 97);
+    border-width: 2px;
+    background-color: rgb(121, 119, 119);
+    margin: 15px;
+    padding: 7px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+    margin-top: 0.5cm;
+    background-color: rgba(0, 0, 0, 0.336);
+    height: 50px;
+    border-color: black;
+    border-top:solid;
+    
+}
+
+#banner {
+    background-image: url("banner.png");
+    background-size: 100%;
+    height: 10cm;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+* {
+    max-width: 100%;
+}
+
+

@@ -44,8 +44,7 @@ h1{
 
 body{
     min-height: 500px;
-    background-size: 100%;
-    background: linear-gradient(to right,rgba(225,49,160,255),rgba(190,106,223,255));
+    background: linear-gradient(to right,rgba(225,49,160,255),rgba(164,115,230,255));
 }
 
 

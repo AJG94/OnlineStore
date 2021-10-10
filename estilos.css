@@ -43,7 +43,7 @@ h1{
 }
 
 body{
-    
+    min-height: 500px;
     background-size: 100%;
     background: linear-gradient(to right,rgba(225,49,160,255),rgba(190,106,223,255));
 }
@@ -74,6 +74,7 @@ body{
 	right: 0;
 	top: 50px;
     text-align: center;
+    max-height: 508px;
 }
 
 li {
@@ -100,11 +101,11 @@ a{
 
 .col-4{
     background-color: rgba(0, 0, 0, 0.80);
-    padding-bottom: 3cm;
     border-right: solid 2px;
     border-bottom: solid 2px;
     border-color: rgb(226, 50, 97);
     border-radius: 10px;
+    height: 508px;
 }
 
 .h2-content{
@@ -175,9 +176,8 @@ border-radius: 5px;
 }
 
 .container-registro{
-    margin-top: 83px;
+    margin-top: 68px;
     text-align: center;
-    padding-bottom: 18px;
 }
 
 #btn_registrar_usuario:hover {
@@ -205,11 +205,12 @@ border-radius: 5px;
 }
 
 footer {
-    margin-top: 0.5cm;
+    margin-top: 8px;
     background-color: rgba(0, 0, 0, 0.336);
     height: 50px;
     border-color: black;
     border-top:solid;
+    width: 100%; 
     
 }
 
@@ -228,4 +229,44 @@ footer {
     max-width: 100%;
 }
 
+#footer-tienda {
+    margin-top: 8px;
+    background-color: rgba(0, 0, 0, 0.336);
+    height: 50px;
+    border-color: black;
+    border-top:solid;
+    width: 100%; 
+    position: absolute;
+    bottom:0;
+}
 
+
+
+
+#Contenedor-Store{
+    background-color: rgba(0, 0, 0, 0.3) ;
+    border-radius: 10px;
+    padding:20px;
+    margin-top:71px;
+    margin-right: 210px;
+    margin-left: 50px;
+    height: 505px; 
+     
+}
+
+#menu-store{
+    display: inline-block;
+    min-height: 100%;
+    background-color:rgb(24, 23, 23);
+    width: 150px;
+    border-radius: 10px;
+}
+
+#content-store{
+    display: inline-block;
+    height: 100%;
+    background-color:rgb(24, 23, 23);
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 880px;
+}

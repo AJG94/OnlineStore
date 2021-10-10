@@ -249,24 +249,25 @@ footer {
     padding:20px;
     margin-top:71px;
     margin-right: 210px;
-    margin-left: 50px;
+    margin-left: 30px;
     height: 505px; 
+    display: grid;
+    grid-template-columns: repeat(2,10px);
      
 }
 
 #menu-store{
-    display: inline-block;
+    
     min-height: 100%;
     background-color:rgb(24, 23, 23);
-    width: 150px;
+    min-width: 150px;
     border-radius: 10px;
 }
 
 #content-store{
-    display: inline-block;
     height: 100%;
     background-color:rgb(24, 23, 23);
     border-radius: 10px;
-    margin-left: 10px;
-    width: 880px;
+    margin-left: 150px;
+    min-width: 920px;
 }

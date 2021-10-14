@@ -146,8 +146,6 @@ color: rgb(226, 50, 97);
 #form_registrarse{
     background-color: rgba(102, 91, 91, 0.445);
     border-radius: 10px;
-
-    
 }
 
 .h2-registro{
@@ -270,3 +268,14 @@ footer {
     margin-left: 150px;
     min-width: 920px;
 }
+
+svg {
+    color: white;  
+    margin-left: 10px; 
+}
+
+#svg-icons {
+    margin: 10px;
+    text-align: center;
+}
+

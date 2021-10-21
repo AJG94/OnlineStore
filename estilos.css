@@ -279,3 +279,50 @@ svg {
     text-align: center;
 }
 
+@media screen and (max-width:400px){
+    html {
+        min-height: 100%;
+        position: relative;
+        padding:0%;
+        margin:0%;
+        
+    }
+    body {
+        margin: 0;
+        min-height:100%
+    }
+    .row {
+        margin: 0.5cm;
+        min-height:100%;
+    }
+    .container-registro{
+    
+    
+    }
+    #vertical_navbar{
+        margin: 0;
+        display: none;
+    }
+    #vertical_navbar{
+        margin: 0;
+        display: none;
+    }
+    #contenedor-registro {
+        width: 100%;
+        margin-left: 0.5cm;
+        margin-top: 2.5cm;
+        margin-right: 0.5cm;
+        height:450px;
+        margin-bottom:0; 
+
+    }
+
+    footer{
+        margin: 0;
+        padding:0;
+        position:fixed;
+        bottom: 0;
+        
+        
+    }
+}

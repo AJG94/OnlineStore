@@ -279,7 +279,7 @@ svg {
     text-align: center;
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:450px){
     html {
         min-height: 100%;
         position: relative;

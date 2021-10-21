@@ -294,6 +294,7 @@ svg {
     .row {
         margin: 0.5cm;
         min-height:100%;
+        
     }
     .container-registro{
     
@@ -310,7 +311,7 @@ svg {
     #contenedor-registro {
         width: 100%;
         margin-left: 0.5cm;
-        margin-top: 2.5cm;
+        margin-top: 1.5cm;
         margin-right: 0.5cm;
         height:450px;
         margin-bottom:0; 

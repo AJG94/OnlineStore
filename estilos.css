@@ -170,6 +170,7 @@ border-radius: 5px;
     padding: 7px;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: solid 2px transparent;
 }
 
 .container-registro{
@@ -178,14 +179,8 @@ border-radius: 5px;
 }
 
 #btn_registrar_usuario:hover {
-    width: 200px;
-    border-radius: 10px;
     background-color: rgb(121, 119, 119);
-    margin: 15px;
-    padding: 7px;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+    }
 
 
 #btn_registrar_usuario:active {

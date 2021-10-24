@@ -47,13 +47,6 @@ body{
     background: linear-gradient(to right,rgba(225,49,160,255),rgba(164,115,230,255));
 }
 
-
-#vertical_navbar {
-
-    margin: 0;
-    padding: 0;
-}
-
 #vertical_navbar {
     
     display:block;
@@ -292,10 +285,10 @@ svg {
         min-height:100%;
         
     }
-    .container-registro{
+    /*.container-registro{
     
     
-    }
+    }*/
     #vertical_navbar{
         margin: 0;
         display: none;

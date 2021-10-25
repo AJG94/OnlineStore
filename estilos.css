@@ -68,6 +68,7 @@ body{
 	top: 50px;
     text-align: center;
     max-height: 508px;
+    z-index: 1;
 }
 
 li {
@@ -324,6 +325,7 @@ svg {
     grid-template-columns: repeat(6,1fr);
     padding-left: 25px;
     grid-template-areas: "container container container container container";
+    
 }
 
 .store-container{
@@ -548,7 +550,7 @@ svg {
 .menu_store p{
     margin: 0;
     padding: 0;
-    color: white;
+    color: rgba(255, 255, 255, 0.644);
 }
 .menu_store{
     margin: 0;

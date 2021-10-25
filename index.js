@@ -20,3 +20,10 @@ sr.reveal('.element-right',{
     distance: '-200px',
 
 })
+
+sr.reveal('.main-content',{
+    duration: 2000,
+    origin: 'right',
+    distance: '-200px',
+    
+})

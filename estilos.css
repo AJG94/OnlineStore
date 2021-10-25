@@ -24,7 +24,7 @@
     text-align: center;
     align-content: center;
     padding-top: 10px;
-    background-color:rgba(0, 0, 0);
+    background-color:rgba(0, 0, 0, 0.61);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-top:solid 3px;
     border-bottom:solid 3px;
@@ -45,6 +45,7 @@ h1{
 body{
     min-height: 500px;
     background: linear-gradient(to right,rgba(225,49,160,255),rgba(164,115,230,255));
+
 }
 
 #vertical_navbar {
@@ -315,4 +316,255 @@ svg {
         
         
     }
+}
+.main-content {
+    display: grid;
+    margin-top: 75px;
+    min-height:500px;
+    grid-template-columns: repeat(6,1fr);
+    padding-left: 25px;
+    grid-template-areas: "container container container container container";
+}
+
+.store-container{
+    display:grid;
+    padding:10px 10px;
+    background-color:rgba(0, 0, 0, 0.3) ;
+    border-right: solid 2px;
+    border-bottom: solid 2px;
+    border-color: rgb(226, 50, 97);
+    border-radius: 10px;
+    color: white;
+    grid-area: container;
+    grid-template-columns: repeat(6,1fr);
+    gap: 15px;
+    grid-template-areas: "columnas articulos articulos articulos articulos articulos";   
+}
+
+.menu_store{
+    background-color:rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+    grid-area: columnas;
+    border-radius: 10px;
+    
+
+}
+
+.content_store {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+    grid-area:articulos;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "ref1 ref2 ref3 ref7"
+                         "ref4 ref5 ref6 ref8";
+    padding: 25px;
+    column-gap:30px ;
+    row-gap:20px ;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.refs-1,.refs-2,.refs-3,.refs-4,.refs-5,.refs-6,.refs-7,.refs-8 {
+    background-color: rgba(102, 91, 91, 0.466);
+    color:whitesmoke;
+    border-radius: 10px;
+    max-height: 200px;
+    padding: 10px 10px;
+    border-right: solid 1px;
+    border-bottom: solid 1px;
+    border-color: rgba(164,115,230,255);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.refs-1{
+    grid-area:ref1;
+}
+.refs-1 img {
+    height: 130px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgba(164,115,230,255);
+}
+.refs-1 a {
+    text-decoration: none;
+    margin-top: 10px;
+}
+.refs-1 h1 {
+    font-size: 20px;
+    color: rgba(164,115,230,255);
+}
+.refs-1 h1:hover {
+    color: rgb(226, 50, 97);
+}
+.refs-2{
+    grid-area:ref2;
+}
+.refs-2 img {
+    height: 130px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgba(164,115,230,255);
+}
+.refs-2 a {
+    text-decoration: none;
+    margin-top: 10px;
+}
+.refs-2 h1 {
+    font-size: 20px;
+    color: rgba(164,115,230,255);
+    text-align: center;
+}
+.refs-2 h1:hover {
+    color: rgb(226, 50, 97);
+}
+.refs-3{
+    grid-area:ref3;
+}
+.refs-3 img {
+    height: 130px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgba(164,115,230,255);
+}
+.refs-3 a {
+    text-decoration: none;
+    margin-top: 10px;
+}
+.refs-3 h1 {
+    font-size: 20px;
+    color: rgba(164,115,230,255);
+}
+.refs-3 h1:hover {
+    color: rgb(226, 50, 97);
+}
+.refs-4{
+    grid-area:ref4;
+}
+.refs-4 img {
+    height: 130px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgba(164,115,230,255);
+}
+.refs-4 a {
+    text-decoration: none;
+    margin-top: 10px;
+}
+.refs-4 h1 {
+    font-size: 20px;
+    color: rgba(164,115,230,255);
+}
+.refs-4 h1:hover {
+    color: rgb(226, 50, 97);
+}
+.refs-5{
+    grid-area:ref5;
+}
+.refs-5 img {
+    height: 130px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgba(164,115,230,255);
+}
+.refs-5 a {
+    text-decoration: none;
+    margin-top: 10px;
+}
+.refs-5 h1 {
+    font-size: 20px;
+    color: rgba(164,115,230,255);
+}
+.refs-5 h1:hover {
+    color: rgb(226, 50, 97);
+}
+.refs-6{
+    grid-area:ref6;
+}
+.refs-6 img {
+    height: 130px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgba(164,115,230,255);
+}
+.refs-6 a {
+    text-decoration: none;
+    margin-top: 10px;
+}
+.refs-6 h1 {
+    font-size: 20px;
+    color: rgba(164,115,230,255);
+}
+.refs-6 h1:hover {
+    color: rgb(226, 50, 97);
+}
+.refs-7{
+    grid-area:ref7;
+}
+.refs-7 img {
+    height: 130px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgba(164,115,230,255);
+}
+.refs-7 a {
+    text-decoration: none;
+    margin-top: 10px;
+}
+.refs-7 h1 {
+    font-size: 20px;
+    color: rgba(164,115,230,255);
+}
+.refs-7 h1:hover {
+    color: rgb(226, 50, 97);
+}
+.refs-8{
+    grid-area:ref8;
+}
+.refs-8 img {
+    height: 130px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgba(164,115,230,255);
+}
+.refs-8 a {
+    text-decoration: none;
+    margin-top: 10px;
+}
+.refs-8 h1 {
+    font-size: 20px;
+    color: rgba(164,115,230,255);
+}
+.refs-8 h1:hover {
+    color: rgb(226, 50, 97);
+}
+.menu_store p{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.menu_store{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ul-store {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }

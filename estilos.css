@@ -691,3 +691,7 @@ ul.slider li img {
     object-fit: cover;
     border-radius: 10px;
 }
+
+ul li {
+    list-style: none;
+}

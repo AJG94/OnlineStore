@@ -570,3 +570,124 @@ svg {
     justify-content: center;
     flex-direction: column;
 }
+
+/* Estilos para el slider 
+.store-container-refs{
+    display:grid;
+    padding:10px 10px;
+    background-color:rgba(0, 0, 0, 0.3) ;
+    border-right: solid 2px;
+    border-bottom: solid 2px;
+    border-color: rgb(226, 50, 97);
+    border-radius: 10px;
+    color: white;
+    grid-area: container;
+    grid-template-columns: 80% 20%;
+    gap: 15px;
+    grid-template-areas: "sliderboots";
+    
+}
+.slide {
+    grid-area:sliderboots ;
+}
+.zone1 {
+    grid-area: zone1;
+    display: grid;
+    background-color:rgba(0, 0, 0, 0.3) ;
+    border-radius: 10px;
+    color: white;
+    grid-template-columns: 90%;
+    gap: 5px;
+    grid-template-rows: 70% 10%;
+    grid-template-areas: "slider"
+                         "slider-menu";
+    max-height: 470px;
+    padding: auto;
+}
+.zone2 {
+    grid-area: zone2;
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 15px;
+    grid-template-rows: 100%;
+    
+}
+.container-slider {
+    margin: 20px;
+    width: 800px;
+    background-color:black;
+}
+.container-slider-menu {
+    grid-area: slider-menu;
+    padding: 10px;
+}
+.slider {
+}
+.slider-menu {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    color: aliceblue;
+    position: relative;
+}
+.slider-menu li a {
+    background-color:black;
+    border-radius: 100%;
+    border: solid transparent;
+    margin:5px;
+    padding:10px;
+    color: rgba(164,115,230,255);
+}
+
+.info-ref {
+    background-color:rgba(0, 0, 0, 0.3) ;
+    border-radius: 10px;
+    color: white;
+
+}
+
+ul.slider li {
+    position:absolute;
+    height: inherit;
+    opacity:1;
+    transition: opacity .5s;
+}
+
+ul.slider li img {
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+*/
+
+.store-container-refs{
+    
+    padding:10px 10px;
+    background-color:rgba(0, 0, 0, 0.3) ;
+    border-right: solid 2px;
+    border-bottom: solid 2px;
+    border-color: rgb(226, 50, 97);
+    border-radius: 10px;
+    color: white;
+    grid-area: container;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.carousel {
+    height:90%;
+    width:80%;
+    border-radius: 10px;
+    border: solid transparent;
+   
+}
+
+.carousel img{
+    height: 370px;
+    width:80%;
+    object-fit: cover;
+    border-radius: 10px;
+}

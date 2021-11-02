@@ -61,7 +61,7 @@ body{
     border-color: rgb(226, 50, 97);
     border-radius: 10px;
     max-width: 180px;
-    
+    list-style: none;
     position: fixed;
     width: 100%; 
 	right: 0;
@@ -674,6 +674,7 @@ ul.slider li img {
     align-items: center;
     justify-content: center;
     display: flex;
+    list-style: none;
     
 }
 
@@ -682,7 +683,7 @@ ul.slider li img {
     width:80%;
     border-radius: 10px;
     border: solid transparent;
-   
+    text-decoration: none;
 }
 
 .carousel img{
@@ -690,8 +691,15 @@ ul.slider li img {
     width:80%;
     object-fit: cover;
     border-radius: 10px;
+    text-decoration: none;
 }
 
-ul li {
+h2{
+    text-decoration: none;
+    list-style: none;
+}
+
+button{
+    text-decoration: none;
     list-style: none;
 }
